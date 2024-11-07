@@ -1,0 +1,325 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.section-1{
+    height: 100vh;
+    width: 100%;
+    background-color:  rgb(243 235 235 / 80%);
+    position: relative;
+    padding: 20px 100px;
+}
+
+.section-1 nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#scrolldown{
+    position: absolute;
+    bottom: 0%;
+    right: 1%;
+}
+
+.section-1 nav .logo{
+    font-size: 50px;
+}
+
+.section-1 nav .logo .dot{
+    color: red;
+    font-size: 60px;
+}
+
+.section-1 nav ul li{
+    list-style: none ;
+    display: inline-block;
+    padding: 10px 30px;
+}
+
+.section-1 nav ul li a{
+     text-decoration: none;
+     font-size: 15px;
+     color: black;
+     font-weight: bold;
+}
+
+.section-1 nav ul li a:hover{
+    color: red;
+}
+
+.section-1 nav ul li .bt-1{
+    border: 1px solid red;
+    color: red;
+    padding: 9px 15px;
+}
+
+.section-1 nav ul li .btn-1:hover{
+    color: white;
+    background: red;
+}
+
+ .section-1 .container-1{
+    justify-self: space-between;
+} 
+
+.section-1 .container-1 .container-1{
+    margin-top: 150px;
+    position: absolute;
+}
+
+.section-1 .container-1 .container-1 h1{
+    font-size: 50px;
+}
+
+.section-1 .container-1 .container-1 .btn-2{
+    padding: 20px 0;
+    margin-top: 20px;
+}
+
+.section-1 .container-1 .container-1 .btn-2 a{
+color: white;
+background-color: red;
+padding: 12px 20px;
+}
+
+.section-1 .container-1 .container-1 .btn-2 a{
+    color: red;
+    border: 1px solid red;
+    background: transparent;
+}
+
+.section-1 .container-1 .container-2 img{
+    width: 50%;
+    height: 50%;
+    transform: translate(600px,0px);
+    overflow: hidden;
+}
+
+#page2{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(243 235 235 / 80%);
+    padding-left: 90px;
+    padding-right: 90px;
+}
+#page2parts{
+    height: 80%;
+    width: 100%;
+    background-color: white;
+    display: flex;
+}
+#page2part1{
+    height: 100%;
+    width: 65%;
+    background-color: white;
+    font-family: sans-serif;
+    padding-left: 90px;
+    
+    
+}
+#page2part2{
+    padding-left: 10px;
+    height: 100%;
+    width: 35%;
+    padding-right: 100px;
+    
+    
+    background-color: white;
+    margin-right: 1px;
+    align-items: center;
+}
+
+
+
+#heading{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    
+}
+#heading h1{
+    align-items: center;
+    padding-left: 15px;
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 50px;
+}
+
+#div1{
+    padding: 15px 10px;
+    font-weight: lighter;
+    line-height: 25px;
+    font-size: 21px;
+    margin: auto;
+}    
+#div2{
+    padding: 15px 10px;
+    line-height: 25px;
+    font-size: 21px;
+    margin: auto;
+}    
+#div3{
+    padding: 15px 10px;
+    line-height: 25px;
+    font-size: 21px;
+    margin: auto;
+}
+
+#services{
+    flex-direction: column;
+    font-family: sans-serif;
+    background-color: rgb(243 235 235 / 80%);
+}
+.h-primary {
+    font-size: 2.2rem;
+    padding-top: 10px;
+}
+.h-secondary {
+    font-size: 1.6rem;
+    padding: 12px;
+}
+
+#services .box img {
+    margin: auto;
+    padding: 2px;
+    height: 170px;
+}
+#services .box {
+    border-radius: 23px;
+    padding: 11px;
+    margin: 7px;
+}
+
+#services{
+    display: flex;
+    margin:34px; 
+    background-color: rgb(243 235 235 / 80%);
+   
+   
+}
+.h-primary {
+    font-size: 2.5rem;
+    /* margin-left: 39%; */
+    font-family:  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-seri;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 80px;
+    padding-bottom: 40px;
+    background-color: rgb(243 235 235 / 80%);
+}
+.h-secondary {
+    font-size: 2.8rem;
+    padding: 12px;
+    /* margin-left: 19%; */
+    font-family:  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-seri;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#services{
+    background-color: rgb(243 235 235 / 80%);
+    
+}
+#services .box {
+    border: 2px solid brown;
+    border-radius: 30px;
+    background-color: white;
+    padding:20px;
+    margin:3px;
+    cursor:pointer;
+   
+
+   
+}
+#services .box img{
+    display:block;
+    margin:auto;
+    padding:20px;
+    height:350px;
+}
+#services .box img:hover{
+    padding:30px;
+    height:300px;
+}
+#services .box p{
+    font-family: 'Balsamiq Sans', sans-serif;
+
+}
+
+#page3{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+
+#about{
+    height: 36%;
+    width: 100%;
+    background-color:  white;
+    display: flex;
+}
+#about2{
+    height: 36%;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    
+}
+#aboutpart1{
+    height: 95%;
+    width: 80%;
+    padding: 3px 6px;
+    background-color:  rgb(243 235 235 / 80%);
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 3px;
+    font-family: sans-serif;
+    border-radius: 20px;
+    border-left: 2px solid rgb(136, 119, 102);
+    font-size: 13px;
+    
+}
+#aboutpart2{
+    height: 95%;
+    width: 80%;
+    padding: 3px 6px;
+    background-color:  rgb(243 235 235 / 80%);
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 3px;
+    border-left: 2px solid ;
+    font-family: sans-serif;
+    border-radius: 20px;
+    border-left: 2px solid rgb(136, 119, 102);
+    font-size: 13px;
+}
+#about2part1{
+    height: 95%;
+    width: 80%;
+    padding: 3px 6px;
+    background-color:  rgb(243 235 235 / 80%);
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 3px;
+font-family: sans-serif;
+border-radius: 20px;
+border-left: 2px solid rgb(136, 119, 102);
+font-size: 13px;
+}
+#about2part2{
+    height: 95%;
+    width: 80%;
+    padding: 3px 6px;
+    background-color:  rgb(243 235 235 / 80%);
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 3px;
+    border-left: 2px solid rgb(136, 119, 102);
+    font-family: sans-serif;
+    border-radius: 20px;
+    font-size: 13px;
+}
